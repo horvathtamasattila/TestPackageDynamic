@@ -1,7 +1,7 @@
-struct TestPackageDynamic {
-    public var text = "Hello, World Dynamic!"
+public struct TestPackageDynamic {
+    public static var text = "Hello, World Dynamic!"
 
-    public func printText() {
+    public static func printText() {
         print(text)
     }
 }
